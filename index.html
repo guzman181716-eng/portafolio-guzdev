@@ -1,316 +1,255 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GuzDev Estudio — Ingeniería de software para negocios reales</title>
-<meta name="description" content="GuzDev Estudio construye sistemas de punto de venta, plataformas e-commerce y herramientas internas a la medida. Ingeniería de software aplicada a negocios reales.">
-<link rel="icon" type="image/png" href="assets/logo/logo-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desarrollo web, apps y sistemas en Lázaro Cárdenas, Michoacán | GUZDEV STUDIO</title>
+<meta name="description" content="GUZDEV STUDIO crea páginas web, tiendas en línea, apps y sistemas de inventario y punto de venta para negocios en Lázaro Cárdenas, Michoacán. Cotiza por WhatsApp.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="geo.region" content="MX-MIC">
+<meta name="geo.placename" content="Lázaro Cárdenas, Michoacán">
+<link rel="canonical" href="https://guzman181716-eng.github.io/portafolio-guzdev/">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/logo/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/logo/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/logo/favicon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="GUZDEV STUDIO">
+<meta property="og:title" content="Desarrollo web, apps y sistemas en Lázaro Cárdenas | GUZDEV STUDIO">
+<meta property="og:description" content="Páginas web, tiendas en línea, apps y sistemas hechos a la medida para negocios de Lázaro Cárdenas, Michoacán.">
+<meta property="og:url" content="https://guzman181716-eng.github.io/portafolio-guzdev/">
+<meta property="og:image" content="https://guzman181716-eng.github.io/portafolio-guzdev/assets/logo/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logotipo de GUZDEV STUDIO, desarrollo web en Lázaro Cárdenas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Desarrollo web, apps y sistemas en Lázaro Cárdenas | GUZDEV STUDIO">
+<meta name="twitter:description" content="Páginas web, tiendas en línea, apps y sistemas para negocios de Lázaro Cárdenas, Michoacán.">
+<meta name="twitter:image" content="https://guzman181716-eng.github.io/portafolio-guzdev/assets/logo/og-image.png">
+<meta name="theme-color" content="#0d3c43">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://guzman181716-eng.github.io/portafolio-guzdev/#business",
+  "name": "GUZDEV STUDIO",
+  "alternateName": "GUZDEV",
+  "url": "https://guzman181716-eng.github.io/portafolio-guzdev/",
+  "logo": "https://guzman181716-eng.github.io/portafolio-guzdev/assets/logo/logo-icon.png",
+  "image": "https://guzman181716-eng.github.io/portafolio-guzdev/assets/logo/og-image.png",
+  "telephone": "+52 753 112 4164",
+  "email": "guzman.martine@icloud.com",
+  "description": "Estudio de desarrollo web y software en Lázaro Cárdenas, Michoacán: páginas web autogestionables, tiendas en línea, aplicaciones, sistemas de inventario y punto de venta para comercios y pymes.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Colonia Comunal Morelos, La Orilla",
+    "addressLocality": "Lázaro Cárdenas",
+    "addressRegion": "Michoacán",
+    "addressCountry": "MX"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Lázaro Cárdenas", "containedInPlace": {"@type": "State", "name": "Michoacán"}},
+    {"@type": "Place", "name": "Colonia Comunal Morelos, La Orilla, Lázaro Cárdenas, Michoacán"},
+    {"@type": "Place", "name": "Pie de Casa, Lázaro Cárdenas, Michoacán"}
+  ],
+  "knowsAbout": [
+    "Desarrollo de páginas web",
+    "Tiendas en línea y comercio electrónico",
+    "Aplicaciones móviles Android e iOS",
+    "Sistemas de inventario y punto de venta",
+    "Automatización de procesos comerciales"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de GUZDEV STUDIO",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Páginas web y tiendas en línea en Lázaro Cárdenas"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aplicaciones para negocios Android e iOS"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sistemas de inventario, punto de venta y automatización comercial"}}
+    ]
+  }
+}
+</script>
+<style>
+:root{--bg:#081218;--panel:#101f27;--panel2:#142832;--text:#f1f6f8;--muted:#a8bac3;--line:#29414b;--accent:#69e0c0;--blue:#7bc6ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1100px,92%);margin:auto}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em;text-decoration:none}
+.brand img{width:44px;height:44px;display:block}
+.brand span{color:var(--accent)}
+.nav a.cta,.button{background:var(--accent);color:#06201e;text-decoration:none;font-weight:800;border-radius:8px;padding:11px 16px;display:inline-block}
+.hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:40px;align-items:center;padding:72px 0 60px;border:0}
+.eyebrow{color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.hero h1{font-size:clamp(2.2rem,5.4vw,4.2rem);line-height:1.08;letter-spacing:-.04em;margin:14px 0 20px}
+.hero p,.lead{font-size:1.1rem;color:var(--muted);max-width:760px}
+.emblem{display:flex;justify-content:center}
+.emblem img{width:min(320px,70%);height:auto;filter:drop-shadow(0 24px 50px rgba(0,140,255,.25))}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.button.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}
+section{padding:54px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.15;letter-spacing:-.025em;margin:8px 0 14px}
+h3{line-height:1.25;margin:0 0 8px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);padding:24px;border-radius:14px}
+.card p,.muted{color:var(--muted)}
+.card p{margin:0}
+.project{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.project figure{margin:0;background:var(--panel2);border-bottom:1px solid var(--line);aspect-ratio:4/5;overflow:hidden}
+.project img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.project .body{padding:20px 24px 24px}
+.tag{display:inline-block;margin-top:14px;font-size:.8rem;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.more{margin-top:28px}
+.more h3{font-size:1.05rem}
+.area{background:var(--panel2);padding:22px;border-radius:12px}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq summary{cursor:pointer;font-weight:750}
+.faq p{margin:10px 0 0;color:var(--muted)}
+.contact{background:linear-gradient(120deg,#10262d,#0a171d);padding:35px;border:1px solid var(--line);border-radius:16px}
+.small{font-size:.9rem;color:var(--muted)}
+footer{padding:28px 0;color:var(--muted);font-size:.9rem}
+footer address{font-style:normal}
+@media(max-width:860px){.hero{grid-template-columns:1fr;padding-top:44px}.emblem{order:-1;justify-content:flex-start}.emblem img{width:120px}}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.nav{gap:14px}.nav .cta{font-size:.82rem}.brand img{width:38px;height:38px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-
-<div class="grid-veil" aria-hidden="true"></div>
-
-<!-- ============ NAV ============ -->
-<header class="nav" id="top">
-  <div class="nav-inner">
-    <a href="#top" class="brand">
-      <img src="assets/logo/logo-icon.png" alt="" class="brand-mark">
-      <span class="brand-text">GUZDEV<em>ESTUDIO</em></span>
-    </a>
-    <nav class="nav-links">
-      <a href="#proyectos"><span class="idx">01</span>Proyectos</a>
-      <a href="#capacidades"><span class="idx">02</span>Capacidades</a>
-      <a href="#stack"><span class="idx">03</span>Stack</a>
-      <a href="#contacto"><span class="idx">04</span>Contacto</a>
-    </nav>
-    <a href="#contacto" class="nav-cta">Iniciar proyecto</a>
-    <button class="nav-burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
+<header class="wrap nav">
+  <a class="brand" href="#inicio" aria-label="GUZDEV STUDIO, inicio">
+    <img src="assets/logo/logo-icon.png" width="44" height="44" alt="Logotipo de GUZDEV STUDIO">
+    <div>GUZDEV <span>STUDIO</span></div>
+  </a>
+  <a class="cta" href="#contacto">Solicitar cotización</a>
 </header>
-
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow mono">// ESTUDIO DE INGENIERÍA DE SOFTWARE</p>
-    <h1 class="hero-title">
-      Sistemas que cobran,<br>
-      registran y venden<span class="dot">.</span><br>
-      <span class="grad">Todos los días.</span>
-    </h1>
-    <p class="hero-sub">
-      Diseño y construyo software a la medida —puntos de venta, plataformas
-      e-commerce y herramientas internas— para negocios que necesitan que su
-      operación funcione sin fricción, desde el mostrador hasta el checkout.
-    </p>
-    <div class="hero-cta">
-      <a href="#proyectos" class="btn btn-primary">Ver proyectos <span>→</span></a>
-      <a href="#contacto" class="btn btn-ghost">Hablemos de tu sistema</a>
-    </div>
-    <div class="hero-meta mono">
-      <div><span class="num">9</span>sistemas entregados</div>
-      <div><span class="num">6</span>industrias distintas</div>
-      <div><span class="num">100%</span>a la medida, sin plantillas</div>
-    </div>
-  </div>
-  <div class="hero-hex" aria-hidden="true">
-    <svg viewBox="0 0 520 520" class="hex-svg">
-      <polygon class="hex-ring hex-ring-1" points="260,40 440,145 440,375 260,480 80,375 80,145"/>
-      <polygon class="hex-ring hex-ring-2" points="260,90 400,170 400,350 260,430 120,350 120,170"/>
-      <polygon class="hex-ring hex-ring-3" points="260,150 350,202 350,318 260,370 170,318 170,202"/>
-      <g class="hex-nodes">
-        <circle cx="260" cy="40" r="4"/><circle cx="440" cy="145" r="4"/>
-        <circle cx="440" cy="375" r="4"/><circle cx="260" cy="480" r="4"/>
-        <circle cx="80" cy="375" r="4"/><circle cx="80" cy="145" r="4"/>
-      </g>
-    </svg>
-    <img src="assets/logo/logo-icon.png" alt="Marca GuzDev Estudio" class="hex-logo">
-  </div>
-</section>
-
-<!-- ============ CAPACIDADES STRIP ============ -->
-<section class="strip" id="capacidades">
-  <div class="strip-inner">
-    <div class="strip-item">
-      <p class="mono strip-tag">MOD_01</p>
-      <h3>Punto de venta</h3>
-      <p>Cobro, carrito, métodos de pago e inventario en tiempo real, pensado para el mostrador, no para la demo.</p>
-    </div>
-    <div class="strip-item">
-      <p class="mono strip-tag">MOD_02</p>
-      <h3>E-commerce</h3>
-      <p>Catálogos, carritos y checkout con identidad propia de marca, sin verse a plantilla genérica.</p>
-    </div>
-    <div class="strip-item">
-      <p class="mono strip-tag">MOD_03</p>
-      <h3>Sistemas internos</h3>
-      <p>Asistencia, nómina, descuentos y pagos de personal en una sola herramienta que tu equipo sí usa.</p>
-    </div>
-    <div class="strip-item">
-      <p class="mono strip-tag">MOD_04</p>
-      <h3>Sitios corporativos</h3>
-      <p>Presencia web para agencias, marcas y catálogos, construida para convertir visitas en clientes.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ PROYECTOS ============ -->
-<section class="projects" id="proyectos">
-  <div class="section-head">
-    <p class="eyebrow mono">// CATÁLOGO DE SISTEMAS</p>
-    <h2>Proyectos construidos<br>de punta a punta.</h2>
-    <p class="section-sub">Cada sistema fue diseñado para un negocio y un flujo de trabajo específicos: así es como se ven funcionando.</p>
-  </div>
-
-  <!-- Featured 01 -->
-  <article class="feature feature-a" id="p-taqueria">
-    <div class="feature-media">
-      <div class="browser-chrome"><span></span><span></span><span></span></div>
-      <img src="assets/projects/taqueria/pos-taqueria.jpg" alt="Punto de venta de Taquería El Buen Taco mostrando el menú de tacos, quesadillas y bebidas junto al carrito de la orden">
-    </div>
-    <div class="feature-copy">
-      <p class="mono strip-tag">SISTEMA_01 // PUNTO_DE_VENTA · RESTAURANTES</p>
-      <h3>Punto de venta para Taquería "El Buen Taco"</h3>
-      <p>Sistema de venta diseñado para el ritmo de un mostrador de comida: catálogo por categorías (tacos, quesadillas, bebidas, combos), carrito con edición de cantidades, notas por orden, cálculo automático de cambio y cierre de caja.</p>
-      <ul class="feature-list">
-        <li>Catálogo con imágenes reales de producto y filtros por categoría</li>
-        <li>Cálculo de subtotal, descuentos y total en vivo</li>
-        <li>Registro de órdenes, reportes de venta y estadísticas por turno</li>
-        <li>Módulo de empleados, gastos y proveedores integrado</li>
-      </ul>
-      <div class="tag-row">
-        <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">UI de punto de venta</span>
+<main class="wrap">
+  <section class="hero" id="inicio">
+    <div>
+      <div class="eyebrow">Desarrollo de software en Lázaro Cárdenas, Michoacán</div>
+      <h1>Páginas web, apps y sistemas para negocios en Lázaro Cárdenas</h1>
+      <p>En <strong>GUZDEV STUDIO</strong> diseñamos páginas web, tiendas en línea y software a la medida para comercios y pymes. Creamos herramientas prácticas para presentar tus servicios, vender por internet y organizar mejor tu operación.</p>
+      <div class="actions">
+        <a class="button" href="https://wa.me/527531124164?text=Hola%2C%20quiero%20cotizar%20un%20proyecto%20con%20GUZDEV%20STUDIO">Cotizar por WhatsApp</a>
+        <a class="button secondary" href="#proyectos">Ver proyectos</a>
       </div>
     </div>
-  </article>
+    <div class="emblem">
+      <img src="assets/logo/logo-icon.png" width="512" height="512" alt="Emblema de GUZDEV STUDIO, estudio de desarrollo web en Lázaro Cárdenas">
+    </div>
+  </section>
 
-  <!-- Featured 02 -->
-  <article class="feature feature-b" id="p-empleados">
-    <div class="feature-copy">
-      <p class="mono strip-tag">SISTEMA_02 // GESTIÓN_DE_PERSONAL · ADMINISTRACIÓN</p>
-      <h3>Sistema de Gestión de Trabajadores</h3>
-      <p>Aplicación de escritorio en C# (.NET / WPF) para controlar asistencia, descuentos y pagos de personal en tiendas con varios empleados por turno — sin depender de hojas de cálculo ni cuadernos.</p>
-      <ul class="feature-list">
-        <li>Registro diario de asistencia con notas por trabajador</li>
-        <li>Cálculo automático de pago por periodo, tarifa diaria y descuentos</li>
-        <li>Historial de pagos con desglose de bruto, descuentos y neto</li>
-        <li>Baja de personal y estado de pagos centralizado</li>
-      </ul>
-      <div class="tag-row">
-        <span class="tag">C#</span><span class="tag">.NET / WPF</span><span class="tag">Escritorio Windows</span>
+  <section id="servicios">
+    <div class="eyebrow">Qué hacemos</div>
+    <h2>Soluciones digitales para empresas y comercios</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Páginas web y tiendas en línea (e-commerce)</h3>
+        <p>Desarrollamos páginas web profesionales para negocios de Lázaro Cárdenas, con diseño adaptable a celulares, catálogo de productos, formularios de contacto y acceso directo a WhatsApp. Para vender en línea, integramos funciones de e-commerce según las necesidades del negocio.</p>
+      </article>
+      <article class="card">
+        <h3>Aplicaciones para negocios Android e iOS</h3>
+        <p>Diseñamos aplicaciones y experiencias web móviles para facilitar pedidos, citas, consultas y seguimiento de clientes. Definimos el alcance y las funciones contigo; la publicación en Android o iOS depende de la tecnología y los requisitos del proyecto.</p>
+      </article>
+      <article class="card">
+        <h3>Sistemas de inventario, punto de venta y automatización</h3>
+        <p>Construimos sistemas para registrar productos, ventas, clientes y movimientos de inventario, además de automatizar tareas repetitivas. La solución se adapta al flujo de tu tienda, restaurante o pequeña empresa.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="eyebrow">Portafolio</div>
+    <h2>Proyectos reales publicados en internet</h2>
+    <p class="lead">Estas son algunas aplicaciones y sitios que desarrollamos en GUZDEV STUDIO. Cada uno se adapta a las necesidades y procesos de su negocio.</p>
+    <div class="grid">
+      <article class="card project">
+        <figure>
+          <img src="assets/proyectos/forma-tienda-playeras.webp" width="640" height="1093" loading="lazy" alt="Tienda en línea de playeras FORMA, desarrollada por GUZDEV STUDIO en Lázaro Cárdenas">
+        </figure>
+        <div class="body">
+          <h3>FORMA, tienda en línea de playeras</h3>
+          <p>Tienda web con catálogo de diseños, carrito y pedido por WhatsApp para coordinar la entrega con el cliente. Se ve bien en celular.</p>
+          <span class="tag">Tienda en línea</span>
+        </div>
+      </article>
+      <article class="card project">
+        <figure>
+          <img src="assets/proyectos/osel-control-panel.webp" width="640" height="1093" loading="lazy" alt="Panel de control de Pinturas Osel con ventas, clientes y compras, sistema desarrollado por GUZDEV STUDIO">
+        </figure>
+        <div class="body">
+          <h3>Pinturas Osel, control de clientes y ventas</h3>
+          <p>Aplicación web para un negocio de pinturas: panel con ventas totales, compras, clientes más valiosos y gamas más vendidas, con módulos de clientes, compras y cotizaciones.</p>
+          <span class="tag">Sistema de administración</span>
+        </div>
+      </article>
+      <article class="card project">
+        <figure>
+          <img src="assets/proyectos/econova-red-social.webp" width="640" height="1227" loading="lazy" alt="EcoNova, red social ambiental con perfiles, mapa y campañas, desarrollada por GUZDEV STUDIO">
+        </figure>
+        <div class="body">
+          <h3>EcoNova, red social ambiental</h3>
+          <p>Plataforma comunitaria con perfiles, publicaciones, mapa y campañas ambientales, además de herramientas de moderación y verificación de cuentas.</p>
+          <span class="tag">Aplicación web</span>
+        </div>
+      </article>
+    </div>
+    <div class="more">
+      <h3>También desarrollamos</h3>
+      <p class="muted">Sistemas de punto de venta con inventario y reportes, y sistemas de administración de personal con asistencias y pagos, para tiendas, restaurantes y pequeñas empresas de Lázaro Cárdenas.</p>
+    </div>
+  </section>
+
+  <section id="cobertura">
+    <div class="eyebrow">Cobertura local</div>
+    <h2>Desarrollo web en La Orilla y Lázaro Cárdenas</h2>
+    <div class="area">
+      <p>GUZDEV STUDIO atiende a negocios de la <strong>colonia Comunal Morelos, La Orilla y Pie de Casa</strong>, así como a comercios y pymes de <strong>Lázaro Cárdenas, Michoacán</strong>. Podemos conversar de forma remota o coordinar atención local según el proyecto.</p>
+      <p class="small">La cobertura indica las zonas a las que se dirige el servicio; no implica que exista una oficina abierta al público en cada colonia.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="eyebrow">Preguntas frecuentes</div>
+    <h2>Respuestas para negocios de Lázaro Cárdenas</h2>
+    <details><summary>¿Cuánto cuesta una página web en Lázaro Cárdenas?</summary><p>El costo depende del número de secciones, las funciones y si requiere catálogo, pagos o administración. Después de conocer tu objetivo, GUZDEV STUDIO prepara una cotización con alcance y precio definidos.</p></details>
+    <details><summary>¿Cuánto tiempo tarda la entrega de una página o sistema?</summary><p>El plazo depende del alcance y de la entrega de textos, imágenes y accesos. Antes de iniciar se acuerdan las funciones, las etapas y una fecha estimada de entrega.</p></details>
+    <details><summary>¿Pueden crear aplicaciones con bases de datos para mi negocio?</summary><p>Sí. Se pueden desarrollar aplicaciones conectadas a bases de datos para administrar clientes, inventario, ventas o registros, con permisos y funciones definidos según las necesidades del negocio.</p></details>
+    <details><summary>¿Trabajan con negocios de La Orilla, Pie de Casa y otras colonias?</summary><p>Sí. GUZDEV STUDIO atiende comercios y pymes de La Orilla, Comunal Morelos, Pie de Casa y el municipio de Lázaro Cárdenas, Michoacán.</p></details>
+  </section>
+
+  <section id="contacto">
+    <div class="contact">
+      <div class="eyebrow">Hablemos de tu proyecto</div>
+      <h2>Convierte una necesidad de tu negocio en una solución digital</h2>
+      <p class="muted">Cuéntanos qué quieres mejorar: presencia en internet, ventas, inventario o procesos internos. Revisaremos el alcance para proponerte una solución a medida.</p>
+      <div class="actions">
+        <a class="button" href="https://wa.me/527531124164?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20GUZDEV%20STUDIO">WhatsApp: 753 112 4164</a>
+        <a class="button secondary" href="mailto:guzman.martine@icloud.com">Enviar correo</a>
       </div>
     </div>
-    <div class="feature-media feature-media-stack">
-      <div class="win-chrome"><span class="win-title">Sistema de Gestión de Trabajadores</span><span class="win-dots"><i></i><i></i><i></i></span></div>
-      <img src="assets/projects/empleados/asistencias.jpg" alt="Registro de asistencia de trabajadores en el sistema de gestión de personal">
-      <div class="media-pair">
-        <img src="assets/projects/empleados/pagos-lista.jpg" alt="Cálculo de nuevo pago para un trabajador">
-        <img src="assets/projects/empleados/pagos-detalle.jpg" alt="Resumen de pago con desglose de días trabajados y descuentos">
-      </div>
-    </div>
-  </article>
-
-  <!-- Featured 03 -->
-  <article class="feature feature-a" id="p-blanc">
-    <div class="feature-media feature-media-stack">
-      <div class="browser-chrome"><span></span><span></span><span></span></div>
-      <img src="assets/projects/blanc/blanc-home.jpg" alt="Página de inicio de Blanc Florería con promoción de 15% de descuento">
-      <div class="media-pair">
-        <img src="assets/projects/blanc/blanc-bouquet.jpg" alt="Bouquet de rosas de Blanc Florería con botón de compra rápida">
-        <img src="assets/projects/blanc/blanc-catalogo.jpg" alt="Listado de ramos con precios en el catálogo de Blanc Florería">
-      </div>
-    </div>
-    <div class="feature-copy">
-      <p class="mono strip-tag">SISTEMA_03 // E-COMMERCE · FLORERÍA</p>
-      <h3>Tienda en línea — Blanc Florería</h3>
-      <p>Sitio de comercio electrónico para una florería boutique: catálogo filtrable, fichas de producto con precio y compra directa, promociones destacadas y contacto inmediato por WhatsApp.</p>
-      <ul class="feature-list">
-        <li>Catálogo de ramos con filtro y orden por precio o relevancia</li>
-        <li>Banners de promoción con vigencia y condiciones claras</li>
-        <li>Carrito de compra y botón de compra rápida por producto</li>
-        <li>Contacto directo vía WhatsApp integrado en cada página</li>
-      </ul>
-      <div class="tag-row">
-        <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">E-commerce</span>
-      </div>
-    </div>
-  </article>
-
-  <p class="section-sub sub-heading" id="mas-proyectos">Más sistemas del catálogo</p>
-
-  <!-- Compact grid -->
-  <div class="grid-cards">
-
-    <article class="card" id="p-pos">
-      <div class="card-media">
-        <img src="assets/projects/pos/pos-opera.jpg" alt="Sistema POS genérico con carrito de compras, subtotal, IVA y métodos de pago">
-      </div>
-      <p class="mono strip-tag">SISTEMA_04 // PUNTO_DE_VENTA · COMERCIO</p>
-      <h3>Sistema POS multi-giro</h3>
-      <p>Punto de venta base para comercio general: inventario, clientes, reportes, usuarios y configuración, con cálculo de IVA y cuatro métodos de pago listos para operar.</p>
-      <div class="tag-row"><span class="tag">HTML5</span><span class="tag">JavaScript</span><span class="tag">Inventario</span></div>
-    </article>
-
-    <article class="card" id="p-flores">
-      <div class="card-media">
-        <img src="assets/projects/floresarreglos/catalogo-premium.jpg" alt="Catálogo premium de arreglos florales con ramo eternidad y ramo jardín rosa">
-      </div>
-      <p class="mono strip-tag">SISTEMA_05 // CATÁLOGO_DIGITAL · FLORERÍA</p>
-      <h3>Catálogo digital — Flores &amp; Arreglos</h3>
-      <p>Catálogo de producto por ocasión (cumpleaños, aniversario, bodas, corporativo) con fichas que incluyen composición e ingredientes de cada arreglo, listo para imprimir o compartir en línea.</p>
-      <div class="tag-row"><span class="tag">Diseño de catálogo</span><span class="tag">Branding</span></div>
-    </article>
-
-    <article class="card" id="p-teastory">
-      <div class="card-media">
-        <img src="assets/projects/teastory/teastory-home.jpg" alt="Tienda en línea The Tea Story con producto de té Hawaiian Hibiscus">
-      </div>
-      <p class="mono strip-tag">SISTEMA_06 // E-COMMERCE · BEBIDAS</p>
-      <h3>The Tea Story — Tienda de té</h3>
-      <p>Tienda en línea para una marca de té premium: carrito de compra, cuenta de cliente y una identidad visual vibrante que se aleja del e-commerce genérico.</p>
-      <div class="tag-row"><span class="tag">E-commerce</span><span class="tag">Identidad de marca</span></div>
-    </article>
-
-    <article class="card" id="p-mango">
-      <div class="card-media">
-        <img src="assets/projects/mango/mango-home.jpg" alt="Sitio web de la agencia creativa Mango Marketing con sus botones de servicios">
-      </div>
-      <p class="mono strip-tag">SISTEMA_07 // SITIO_CORPORATIVO · MARKETING</p>
-      <h3>Mango Marketing Co.</h3>
-      <p>Sitio corporativo para una agencia creativa: propuesta de valor clara arriba del scroll, navegación a servicios y contacto directo por chat integrado.</p>
-      <div class="tag-row"><span class="tag">Sitio corporativo</span><span class="tag">Landing page</span></div>
-    </article>
-
-    <article class="card" id="p-smartpoint">
-      <div class="card-media">
-        <img src="assets/projects/smartpoint/smartpoint-home.jpg" alt="Tienda en línea Smart Point de venta de iPhones con banner del iPhone 15 Pro">
-      </div>
-      <p class="mono strip-tag">SISTEMA_08 // E-COMMERCE · TECNOLOGÍA</p>
-      <h3>Smart Point — Venta de iPhones</h3>
-      <p>Tienda especializada en smartphones: comparativa de modelos, fichas técnicas, calificaciones de producto y garantías, con checkout pensado para conversión.</p>
-      <div class="tag-row"><span class="tag">E-commerce</span><span class="tag">Catálogo de producto</span></div>
-    </article>
-
-    <article class="card" id="p-osel">
-      <div class="card-media">
-        <img src="assets/projects/osel/osel-tienda.jpg" alt="Tienda en línea de Pinturas Osel con calculadora de pintura por metros cuadrados">
-      </div>
-      <p class="mono strip-tag">SISTEMA_09 // E-COMMERCE · CALCULADORA</p>
-      <h3>Pinturas Osel — Calculadora + tienda</h3>
-      <p>Tienda de pinturas con una herramienta poco común: calculadora de litros necesarios según metros cuadrados y número de manos, conectada directo al catálogo de producto.</p>
-      <div class="tag-row"><span class="tag">Herramienta interactiva</span><span class="tag">E-commerce</span></div>
-    </article>
-
-  </div>
-</section>
-
-<!-- ============ STACK ============ -->
-<section class="stack" id="stack">
-  <div class="section-head">
-    <p class="eyebrow mono">// CÓMO SE CONSTRUYE</p>
-    <h2>Un stack elegido por<br>el problema, no por moda.</h2>
-  </div>
-  <div class="stack-grid">
-    <div class="stack-col">
-      <p class="mono stack-label">Web &amp; e-commerce</p>
-      <ul>
-        <li>HTML5 / CSS3 semántico</li>
-        <li>JavaScript</li>
-        <li>Diseño responsivo mobile-first</li>
-        <li>Integración de checkout y WhatsApp</li>
-      </ul>
-    </div>
-    <div class="stack-col">
-      <p class="mono stack-label">Sistemas y escritorio</p>
-      <ul>
-        <li>C# / .NET / WPF</li>
-        <li>Bases de datos locales y relacionales</li>
-        <li>Reportes y cálculos en tiempo real</li>
-        <li>Aplicaciones sin conexión (offline-first)</li>
-      </ul>
-    </div>
-    <div class="stack-col">
-      <p class="mono stack-label">Proceso</p>
-      <ul>
-        <li>Levantamiento de flujo real del negocio</li>
-        <li>Prototipo funcional, no solo maqueta</li>
-        <li>Entrega, capacitación y soporte</li>
-        <li>Iteración según uso en piso de venta</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CONTACTO ============ -->
-<section class="contact" id="contacto">
-  <div class="contact-inner">
-    <p class="eyebrow mono">// NUEVO_SISTEMA</p>
-    <h2>¿Tu negocio necesita<br>un sistema propio<span class="dot">?</span></h2>
-    <p class="section-sub">Cuéntame cómo opera tu negocio hoy y qué parte te está quitando más tiempo. De ahí sale el sistema.</p>
-    <div class="contact-actions">
-      <a href="mailto:Guzman.martine@iCloud.com" class="btn btn-primary">Guzman.martine@iCloud.com</a>
-      <a href="#" class="btn btn-ghost" id="whatsappLink">Escribir por WhatsApp</a>
-    </div>
-    <p class="contact-phone mono">Tel. 753 112 4164</p>
-    <div class="contact-links mono">
-      <a href="#" target="_blank" rel="noopener">GitHub</a>
-      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="#" target="_blank" rel="noopener">Instagram</a>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <img src="assets/logo/logo-icon.png" alt="" class="footer-mark">
-  <p class="mono">GUZDEV ESTUDIO — Ingeniería de software · <span id="year"></span></p>
+  </section>
+</main>
+<footer class="wrap">
+  <address>
+    <strong>GUZDEV STUDIO</strong> · Desarrollo web y software para negocios<br>
+    Colonia Comunal Morelos, La Orilla, Lázaro Cárdenas, Michoacán · Tel. <a href="tel:+527531124164">753 112 4164</a>
+  </address>
 </footer>
-
-<script src="js/main.js"></script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"¿Cuánto cuesta una página web en Lázaro Cárdenas?","acceptedAnswer":{"@type":"Answer","text":"El costo depende del número de secciones, las funciones y si requiere catálogo, pagos o administración. Después de conocer tu objetivo, GUZDEV STUDIO prepara una cotización con alcance y precio definidos."}},
+    {"@type":"Question","name":"¿Cuánto tiempo tarda la entrega de una página o sistema?","acceptedAnswer":{"@type":"Answer","text":"El plazo depende del alcance y de la entrega de textos, imágenes y accesos. Antes de iniciar se acuerdan las funciones, las etapas y una fecha estimada de entrega."}},
+    {"@type":"Question","name":"¿Pueden crear aplicaciones con bases de datos para mi negocio?","acceptedAnswer":{"@type":"Answer","text":"Sí. Se pueden desarrollar aplicaciones conectadas a bases de datos para administrar clientes, inventario, ventas o registros, con permisos y funciones definidos según las necesidades del negocio."}},
+    {"@type":"Question","name":"¿Trabajan con negocios de La Orilla, Pie de Casa y otras colonias?","acceptedAnswer":{"@type":"Answer","text":"Sí. GUZDEV STUDIO atiende comercios y pymes de La Orilla, Comunal Morelos, Pie de Casa y el municipio de Lázaro Cárdenas, Michoacán."}}
+  ]
+}
+</script>
 </body>
 </html>
